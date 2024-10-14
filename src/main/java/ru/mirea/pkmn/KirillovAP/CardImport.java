@@ -25,9 +25,7 @@ public class CardImport {
             String line5 = br.readLine().split("\\. ")[1];
             if (line5.equals("-")) {
             } else {
-                CardImport imp11 = new CardImport();
-                Card card11 = new Card();
-                card.setEvolvesFrom(card11 = imp11.importCards(line5));
+                card.setEvolvesFrom(importCards(line5));
             }
             //6
             String[] line6 = br.readLine().split("\\. ")[1].split(", ");
