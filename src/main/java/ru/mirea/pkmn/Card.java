@@ -1,4 +1,5 @@
-package ru.mirea.KirillovAP.pkmn;
+package ru.mirea.pkmn;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -142,6 +143,7 @@ public class Card implements Serializable {
         return pokemonOwner;
     }
     private PokemonStage pokemonStage;
+    private static final long serialVersionUID = 1L;
     private String name;
     private int hp;
     private EnergyType pokemonType;

@@ -1,4 +1,4 @@
-package ru.mirea.KirillovAP.pkmn;
+package ru.mirea.pkmn;
 
 import java.io.Serializable;
 
@@ -7,6 +7,7 @@ public class AttackSkill implements Serializable {
     private String description;
     private String cost;
     private int damage;
+    private static final long serialVersionUID = 1L;
 
     public AttackSkill(String name, String description, String cost, int damage) {
         this.name = name;

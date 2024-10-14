@@ -1,4 +1,6 @@
-package ru.mirea.KirillovAP.pkmn;
+package ru.mirea.pkmn.KirillovAP;
+import ru.mirea.pkmn.*;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -70,13 +72,13 @@ public class CardImport {
         try (FileInputStream fileIn = new FileInputStream(filename);
              ObjectInputStream objectIn = new ObjectInputStream(fileIn)) {
 
-            card = (Card) objectIn.readObject(); // Десериализация объекта
+            card = (Card) objectIn.readObject();
         } catch (IOException e) {
             System.err.println("Error while importing card: " + e.getMessage());
         } catch (ClassNotFoundException e) {
             System.err.println("Card class not found: " + e.getMessage());
         }
 
-        return card; // Возвращаем десериализованный объект
+        return card;
     }
 }

@@ -1,4 +1,4 @@
-package ru.mirea.KirillovAP.pkmn;
+package ru.mirea.pkmn;
 
 public enum EnergyType {
     FIRE,
