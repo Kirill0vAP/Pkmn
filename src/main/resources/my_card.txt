@@ -2,7 +2,7 @@
 2. Golurk
 3. 150
 4. FIGHTING
-5. Golett
+5. C:\Users\student\IdeaProjects\Pkmn\src\main\resources\pedik.txt
 6. 2 / Big Hand / 30, 1HH / Mega Punch / 120
 7. GRASS
 8. -
