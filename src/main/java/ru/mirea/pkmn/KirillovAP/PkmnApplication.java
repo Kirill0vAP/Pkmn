@@ -16,6 +16,9 @@ public class PkmnApplication {
         Card card3 = imp.importCardByte("Magmortar.crd");
         System.out.println(card3.toString());
 
+        Card card4 = imp.importCardByte("ChesnaughtV.crd");
+        System.out.println(card4.toString());
+
 
 
 
