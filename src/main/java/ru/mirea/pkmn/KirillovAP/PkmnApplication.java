@@ -13,7 +13,13 @@ public class PkmnApplication {
         Card card2 = imp.importCardByte("Golurk.crd");
         System.out.println(card2.toString());
 
-        Card card3 = imp.importCardByte("ChesnaughtV.crd");
+        Card card3 = imp.importCardByte("Magmortar.crd");
         System.out.println(card3.toString());
+
+
+
+
+
+
     }
 }
